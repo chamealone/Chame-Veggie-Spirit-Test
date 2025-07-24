@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kuis - Spirit Veggie</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Quiz - Spirit Veggie</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <section class="quiz">
-    <div id="progress">Step 1 of 20</div>
-    <div id="question-container"></div>
+<body class="quiz">
+  <div class="container">
+    <div id="progressBar">Progress: █▁▁▁▁▁▁▁▁▁</div>
+    <h2 id="narrative">Loading question...</h2>
+    <div id="options" class="option-container"></div>
     <div class="navigation">
-      <button id="prev-btn">Back</button>
-      <button id="next-btn">Next</button>
+      <button onclick="prevQuestion()">← Back</button>
+      <button onclick="nextQuestion()">Next →</button>
     </div>
-  </section>
-  <script src="data/questions.js"></script>
-  <script src="js/quiz.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
