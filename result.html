@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz - Spirit Veggie</title>
+  <title>Hasilmu - Spirit Veggie</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="quiz">
-  <div class="container">
-    <div id="progressBar">Progress: █▁▁▁▁▁▁▁▁▁</div>
-    <h2 id="narrative">Loading question...</h2>
-    <div id="options" class="option-container"></div>
-    <div class="navigation">
-      <button onclick="prevQuestion()">← Back</button>
-      <button onclick="nextQuestion()">Next →</button>
-    </div>
+<body class="result">
+  <div class="container center">
+    <h1>Spirit Veggie Kamu</h1>
+    <h2 id="resultName"></h2>
+    <p id="resultDesc"></p>
+    <a href="index.html" class="button">Ulangi Perjalanan</a>
   </div>
-  <script src="script.js"></script>
+  <script>
+    const result = localStorage.getItem('finalSpirit');
+    document.getElementById('resultName').textContent = result || "Unknown";
+    document.getElementById('resultDesc').textContent = "Spirit ini mewakili luka terdalam sekaligus penyembuhanmu.";
+  </script>
 </body>
 </html>
-
