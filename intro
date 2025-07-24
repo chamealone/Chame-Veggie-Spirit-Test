@@ -4,20 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intro - Spirit Veggie</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <section class="intro">
-    <p class="chame-dialog">“Eh?! Kamu juga jatuh? Tadi aku nginjek daun, terus... BRUK! Tau-tau di sini. Kenalin aku Chame. Kamu siapa?”</p>
-    <input type="text" id="username" placeholder="Tuliskan nama kamu">
-    <button onclick="startQuiz()">Mulai Menyusuri Lorong...</button>
-  </section>
+<body class="intro">
+  <div class="container center">
+    <img src="assets/chame.png" alt="Chame Kaget" class="chame-img" />
+    <p>“Eh?! Kamu juga jatuh? Tadi aku nginjek daun, terus... BRUK! Tau-tau di sini. Kenalin aku Chame. Kamu siapa?”</p>
+    <input type="text" id="userName" placeholder="Tuliskan nama kamu" />
+    <button onclick="startJourney()">Mulai Menyusuri Lorong...</button>
+  </div>
   <script>
-    function startQuiz() {
-      const name = document.getElementById('username').value;
-      if(name) {
-        window.location.href = `quiz.html?name=${encodeURIComponent(name)}`;
+    function startJourney() {
+      const name = document.getElementById('userName').value;
+      if (!name.trim()) {
+        alert("Tolong isi nama dulu ya!");
+        return;
       }
+      localStorage.setItem('userName', name);
+      localStorage.setItem('currentQuestion', 0);
+      localStorage.setItem('scores', JSON.stringify({}));
+      window.location.href = "quiz.html";
     }
   </script>
 </body>
