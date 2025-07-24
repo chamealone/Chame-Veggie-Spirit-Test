@@ -113,7 +113,7 @@ const questions = [
     "narrative": "Rintangan bayangan menari di dinding. Apa caramu menanggulanginya?",
     "options": [
       { "text": "A. Berdiri tetap tenang", "spirits": ["Kroot","Potatoad"] },
-      { "text": "B. Melompat melewatinya", "spirits": ["Gingeer","Jinger"] },
+      { "text": "B. Melompat melewatinya", "spirits": ["Gingeer","Gingeer"] },
       { "text": "C. Memutar badan menghindar", "spirits": ["Onyun","Bitty"] },
       { "text": "D. Mengikuti irama bayangan", "spirits": ["Bitty","Mubii"] },
       { "text": "E. Tanyakan pada spirit langkah selanjutnya", "spirits": ["Mubii","Alliowl"] }
@@ -186,7 +186,7 @@ const questions = [
       { "text": "B. Menangis lega", "spirits": ["Banion","Bitty"] },
       { "text": "C. Tersenyum hangat", "spirits": ["Bitty","Kroot"] },
       { "text": "D. Mengangguk mantap", "spirits": ["Onyun","Gingeer"] },
-      { "text": "E. Diam tapi bahagia", "spirits": ["Alliowl","Jinger"] }
+      { "text": "E. Diam tapi bahagia", "spirits": ["Alliowl","Gingeer"] }
     ]
   },
   {
