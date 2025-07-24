@@ -1,4 +1,4 @@
-const questions = [/* Array dari 20 pertanyaan di PDF dengan struktur: 
+const questions = [
   {
     "narrative": "Kamu dan Chame melangkah menyusuri lorong yang sempit. Tiba-tiba lorong bercabang menjadi lima jalan berbeda. Kamu memilih jalan mana?",
     "options": [
@@ -196,9 +196,7 @@ const questions = [/* Array dari 20 pertanyaan di PDF dengan struktur:
           "Gingeer",
           "Bitty"
         ]
-      }
-    ]
-  },
+      },
   {
     "narrative": "Kalian melangkah di atas lantai berlapis kenangan. Benda mana yang paling menarik perhatianmu?",
     "options": [
@@ -829,16 +827,6 @@ const questions = [/* Array dari 20 pertanyaan di PDF dengan struktur:
         "spirits": [
           "Bitty"
         ]
-      }
-    ]
-  }
-]
-
-
-    ]
-  }
-]
-    ]
   }
 */];
 
