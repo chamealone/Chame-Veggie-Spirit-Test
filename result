@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasil Spirit</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="result">
+    <div id="result-container"></div>
+    <a href="index.html" class="btn">Coba Lagi</a>
+  </section>
+  <script src="data/spiritData.js"></script>
+  <script src="js/result.js"></script>
+</body>
+</html>
