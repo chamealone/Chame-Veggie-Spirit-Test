@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro - Spirit Veggie</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="intro">
+    <p class="chame-dialog">“Eh?! Kamu juga jatuh? Tadi aku nginjek daun, terus... BRUK! Tau-tau di sini. Kenalin aku Chame. Kamu siapa?”</p>
+    <input type="text" id="username" placeholder="Tuliskan nama kamu">
+    <button onclick="startQuiz()">Mulai Menyusuri Lorong...</button>
+  </section>
+  <script>
+    function startQuiz() {
+      const name = document.getElementById('username').value;
+      if(name) {
+        window.location.href = `quiz.html?name=${encodeURIComponent(name)}`;
+      }
+    }
+  </script>
+</body>
+</html>
