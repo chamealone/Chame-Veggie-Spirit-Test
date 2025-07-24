@@ -210,6 +210,47 @@ const questions = [
     ]
   }
 ];
+ const resultData = {
+  "Kroot": {
+    emoji: "🥬",
+    name: "Kroot",
+    description: `Spirit kamu adalah Kroot.\nKamu sering merasa nggak cukup, meski orang lain melihatmu penuh makna. Kroot hadir sebagai tanah yang kamu lupakan: diam, tapi menyimpan segalanya. Ia mengingatkan bahwa nilai dirimu nggak tergantung dari produktivitas atau validasi.\n\nKadang, kamu cuma butuh duduk, bernapas, dan tahu bahwa diam juga bisa jadi bentuk keberadaan.`
+  },
+  "Banion": {
+    emoji: "🌰",
+    name: "Banion",
+    description: `Spirit kamu adalah Banion.\nKamu menyimpan emosi yang dalam, tapi sering ditutup dengan “aku nggak papa”. Padahal... jelas nggak papa. Banion mengerti intensitasmu, bahkan saat kamu sendiri bingung kenapa bisa segalau itu.\n\nIa membantu kamu menormalkan emosi gelap — bukan untuk dibasmi, tapi dikenali, lalu dilepas pelan-pelan.`
+  },
+  "Potatoad": {
+    emoji: "🥔",
+    name: "Potatoad",
+    description: `Spirit kamu adalah Potatoad.\nKamu lelah. Dunia terlalu cepat, dan kamu? Lagi rebahan nyari makna. Potatoad nggak akan menyuruhmu bangkit, tapi duduk bareng, sambil bilang: “istirahat bukan dosa.”\n\nIa ngajarin kamu bahwa pelarian sesekali itu sehat — asal kamu tahu kapan pulang ke diri sendiri.`
+  },
+  "Mubii": {
+    emoji: "🐌",
+    name: "Mubii",
+    description: `Spirit kamu adalah Mubii.\nKamu terlalu sering bilang “iya” meski hatimu ingin menolak. Mubii paham rasanya ingin disukai semua orang, tapi malah kehilangan diri sendiri.\n\nIa hadir untuk bilang: batas itu bukan dinding, tapi pelindung. Kamu berhak bilang ‘tidak’, tanpa perlu merasa jahat.`
+  },
+  "Onyun": {
+    emoji: "🧅",
+    name: "Onyun",
+    description: `Spirit kamu adalah Onyun.\nKamu panik kalau semuanya nggak sesuai rencana. Takut gagal, takut bikin salah, takut semua runtuh. Onyun ngerti betul caranya hidup dengan 37 checklist harian dan ekspektasi internal tak masuk akal.\n\nTapi dia juga ngajarin bahwa rasa takut nggak harus disembunyikan. Kadang, cukup diakui, dan diberi ruang untuk bernapas.`
+  },
+  "Bitty": {
+    emoji: "🧃",
+    name: "Bitty",
+    description: `Spirit kamu adalah Bitty.\nKamu sedang bertanya-tanya: hidup ini sebenarnya buat apa, sih? Bitty nggak datang dengan jawaban — tapi dia bisa duduk di sampingmu, memandangi langit, dan membiarkanmu bertanya sepuasnya.\n\nIa tahu bahwa kehilangan arah bukan akhir, tapi mungkin... titik awal dari versi kamu yang lebih jujur.`
+  },
+  "Gingeer": {
+    emoji: "🫚",
+    name: "Gingeer",
+    description: `Spirit kamu adalah Gingeer.\nDari luar kamu terlihat kuat dan pintar, tapi dalam hati kamu sering merasa “nggak cukup baik”. Gingeer tahu betapa beratnya standar yang kamu pasang untuk diri sendiri — bahkan saat nggak ada yang menuntut.\n\nDia mengingatkan: kamu boleh gagal. Kamu tetap berharga, bahkan saat semua hal tidak berjalan sesuai rencana.`
+  },
+  "Alliowl": {
+    emoji: "🦉",
+    name: "Alliowl",
+    description: `Spirit kamu adalah Alliowl.\nKamu pernah disakiti, dan itu membuatmu berjaga terus. Alliowl tak banyak bicara, tapi matanya penuh cerita. Ia mengajarkanmu untuk mempercayai proses — meski pelan, meski takut, meski belum tahu ujungnya.`
+  }
 
 let current = parseInt(localStorage.getItem('currentQuestion') || 0);
 let scores = JSON.parse(localStorage.getItem('scores') || '{}');
