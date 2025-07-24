@@ -4,10 +4,7 @@ const questions = [
     "options": [
       {
         "text": "A. Jalan berlantai batu tua",
-        "spirits": [
-          "Kroot",
-          "Onyun"
-        ]
+        "spirits": ["Kroot","Onyun"]
       },
       {
         "text": "B. Jalan yang ditumbuhi lumut hijau",
