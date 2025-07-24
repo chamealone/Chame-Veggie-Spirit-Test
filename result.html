@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasilmu - Spirit Veggie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="result">
+  <div class="container center">
+    <h1>Spirit Veggie Kamu</h1>
+    <h2 id="resultName"></h2>
+    <p id="resultDesc"></p>
+    <a href="index.html" class="button">Ulangi Perjalanan</a>
+  </div>
+  <script>
+    const result = localStorage.getItem('finalSpirit');
+    document.getElementById('resultName').textContent = result || "Unknown";
+    document.getElementById('resultDesc').textContent = "Spirit ini mewakili luka terdalam sekaligus penyembuhanmu.";
+  </script>
+</body>
+</html>
