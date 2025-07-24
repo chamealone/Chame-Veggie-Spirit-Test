@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spirit Veggie Journey</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="home">
+    <img src="assets/images/chame.png" alt="Chame lucu" class="chame-img">
+    <h1>Discover Your Inner Spirit Veggie</h1>
+    <p class="tagline">A soft journey inward, with a friend by your side.</p>
+    <p class="desc">Kamu akan diajak menyusuri lorong aneh bersama Chame, seekor bunglon yang juga tersesat. Jawabanmu akan membantumu bertemu spirit veggie yang mewakili luka terdalam sekaligus cara penyembuhanmu.</p>
+    <a href="intro.html" class="btn">Start Your Journey</a>
+  </section>
+</body>
+</html>
